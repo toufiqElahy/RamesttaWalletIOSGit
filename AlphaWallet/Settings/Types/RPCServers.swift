@@ -82,7 +82,7 @@ enum RPCServer: Hashable, CaseIterable {
         case .fantom_testnet: return 0xfa2
         case .avalanche: return 0xa86a
         case .avalanche_testnet: return 0xa869
-        case .polygon: return 137
+        case .polygon: return 1337
         case .mumbai_testnet: return 80001
         case .optimistic: return 10
         case .optimisticKovan: return 69
@@ -112,7 +112,7 @@ enum RPCServer: Hashable, CaseIterable {
         case .fantom_testnet: return "Fantom Testnet"
         case .avalanche: return "Avalanche Mainnet C-Chain"
         case .avalanche_testnet: return "Avalanche FUJI C-Chain"
-        case .polygon: return "Polygon Mainnet"
+        case .polygon: return "Ramestta Mainnet"
         case .mumbai_testnet: return "Mumbai Testnet"
         case .optimistic: return "Optimistic Ethereum"
         case .optimisticKovan: return "Optimistic Kovan"
@@ -188,7 +188,7 @@ enum RPCServer: Hashable, CaseIterable {
             case .artis_tau1: return "https://explorer.tau1.artis.network"
             case .binance_smart_chain: return "https://bscscan.com"
             case .binance_smart_chain_testnet: return "https://testnet.bscscan.com"
-            case .polygon: return "https://polygonscan.com"
+            case .polygon: return "http://103.150.136.112:3000"
             case .mumbai_testnet: return "https://mumbai.polygonscan.com"
             case .optimistic: return "https://optimistic.etherscan.io"
             case .optimisticKovan: return "https://kovan-optimistic.etherscan.io"
@@ -389,7 +389,7 @@ enum RPCServer: Hashable, CaseIterable {
         case .custom(let custom): return custom.symbol ?? "ETH"
         case .fantom, .fantom_testnet: return "FTM"
         case .avalanche, .avalanche_testnet: return "AVAX"
-        case .polygon, .mumbai_testnet: return "MATIC"
+        case .polygon, .mumbai_testnet: return "RAMA"
         case .optimistic: return "ETH"
         case .optimisticKovan: return "ETH"
         }
@@ -412,7 +412,7 @@ enum RPCServer: Hashable, CaseIterable {
         case .avalanche, .avalanche_testnet:
             return "AVAX"
         case .polygon, .mumbai_testnet:
-            return "MATIC"
+            return "RAMA"
         case .custom(let custom):
             return custom.nativeCryptoTokenName ?? "Ether"
         }
@@ -517,7 +517,7 @@ enum RPCServer: Hashable, CaseIterable {
             case .fantom_testnet: return "https://rpc.testnet.fantom.network/"
             case .avalanche: return "https://api.avax.network/ext/bc/C/rpc"
             case .avalanche_testnet: return "https://api.avax-test.network/ext/bc/C/rpc"
-            case .polygon: return "https://polygon-mainnet.infura.io/v3/\(Constants.Credentials.infuraKey)"
+            case .polygon: return "http://103.150.136.112:9545"
             case .mumbai_testnet: return "https://polygon-mumbai.infura.io/v3/\(Constants.Credentials.infuraKey)"
             case .optimistic: return "https://mainnet.optimism.io"
             case .optimisticKovan: return "https://kovan.optimism.io"

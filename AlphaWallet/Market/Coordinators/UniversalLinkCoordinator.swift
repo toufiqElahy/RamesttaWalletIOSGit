@@ -78,7 +78,7 @@ class UniversalLinkCoordinator: Coordinator {
         case .avalanche, .avalanche_testnet:
             return "AVAX"
         case .polygon, .mumbai_testnet:
-            return "MATIC"
+            return "RAMA"
         case .custom(let custom):
             //TODO better defaults or handling for when properties of custom chain is not provided by user
             return custom.symbol ?? "ETH"

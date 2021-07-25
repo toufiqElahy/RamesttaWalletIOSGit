@@ -432,7 +432,7 @@
 "blockchain.fantom.test" = "Fantom Testnet Network";
 "blockchain.Avalanche" = "Avalanche Mainnet C-Chain";
 "blockchain.Avalanche.test" = "Avalanche FUJI C-Chain";
-"blockchain.Polygon" = "Polygon Mainnet";
+"blockchain.Polygon" = "Ramestta Mainnet";
 "blockchain.Mumbai" = "Mumbai Testnet";
 "blockchain.Optimistic" = "Optimistic Testnet";
 "blockchain.Optimistic.Kovan" = "Optimistic Kovan Testnet";
