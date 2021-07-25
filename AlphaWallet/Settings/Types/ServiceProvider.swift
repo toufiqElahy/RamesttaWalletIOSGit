@@ -32,9 +32,9 @@ enum URLServiceProvider {
     var localURL: URL? {
         switch self {
         case .telegramPublic:
-            return URL(string: "https://t.me/AlphaWalletGroup")!
+            return URL(string: "https://t.me/ramestta")!
         case .telegramCustomer:
-            return URL(string: "https://t.me/AlphaWalletSupport")!
+            return URL(string: "https://t.me/ramestta")!
         case .twitter:
             return URL(string: "twitter://user?screen_name=\(Constants.twitterUsername)")!
         case .reddit:
@@ -49,9 +49,9 @@ enum URLServiceProvider {
     var remoteURL: URL {
         switch self {
         case .telegramPublic:
-            return URL(string: "https://t.me/AlphaWalletGroup")!
+            return URL(string: "https://t.me/ramestta")!
         case .telegramCustomer:
-            return URL(string: "https://t.me/AlphaWalletSupport")!
+            return URL(string: "https://t.me/ramestta")!
         case .twitter:
             return URL(string: "https://twitter.com/\(Constants.twitterUsername)")!
         case .reddit:
@@ -59,7 +59,7 @@ enum URLServiceProvider {
         case .facebook:
             return URL(string: "https://www.facebook.com/\(Constants.facebookUsername)")!
         case .faq:
-            return URL(string: "https://alphawallet.com/faq/")!
+            return URL(string: "https://ramestta.com/")!
         }
     }
 

@@ -51,13 +51,13 @@ public struct Constants {
     public static let currencyDropServer = "https://paymaster.stormbird.sg/api/claimFreeCurrency"
 
     // social
-    public static let website = "https://alphawallet.com/"
-    public static let twitterUsername = "AlphaWallet"
-    public static let redditGroupName = "r/AlphaWallet/"
-    public static let facebookUsername = "AlphaWallet"
+    public static let website = "https://ramestta.com/"
+    public static let twitterUsername = "ramestta"
+    public static let redditGroupName = "r/ramestta/"
+    public static let facebookUsername = "ramestta"
 
     // support
-    public static let supportEmail = "feedback+ios@alphawallet.com"
+    public static let supportEmail = "feedback+ios@ramestta.com"
     public static let dappsBrowserURL = "http://aw.app"
 
     //Ethereum null variables
